@@ -1,0 +1,33 @@
+.header {
+  margin: 45px 25px 25px 85px;
+}
+
+.header__title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #282423;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__find {
+  background-color: #ececee;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.header__find input {
+  margin-left: 10px;
+  height: 20px;
+  width: 320px;
+  border: none;
+  background-color: #ececee;
+}
