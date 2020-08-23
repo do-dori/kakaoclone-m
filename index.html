@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="author" content="Nomad Coders" />
+    <meta name="description" content="Welcome to my Kakao Clone" />
+    <script
+      src="https://kit.fontawesome.com/43b2f8bb25.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Chats | Kakao Talk</title>
+  </head>
+  <body>
+    <div class="up-bar">
+      <span class="up-bar__icon">
+        <i class="fas fa-minus"></i>
+      </span>
+      <span class="up-bar__icon">
+        <i class="far fa-square"></i>
+      </span>
+      <span class="up-bar__icon">
+        <i class="fas fa-times"></i>
+      </span>
+    </div>
+    <nav class="side-bar">
+      <div class="side-bar__list--big">
+        <a href="friends.html" class="side-bar__list-link">
+          <i class="fas fa-user"></i>
+        </a>
+        <a href="index.html" class="side-bar__list-link">
+          <div class="side-bar__badge">2</div>
+          <i class="fas fa-comment"></i>
+        </a>
+        <a href="more.html" class="side-bar__list-link">
+          <i class="fas fa-ellipsis-h"></i>
+        </a>
+      </div>
+      <div class="side-bar__list--small">
+        <i class="far fa-smile"></i>
+        <i class="far fa-bell"></i>
+        <i class="fas fa-cog"></i>
+      </div>
+    </nav>
+    <header class="header">
+      <div class="header__title">
+        <span calss="header__title-name">채팅</span>
+        <div calss="header__title-icon">
+          <i class="far fa-comments"></i>
+          <i class="fas fa-comment-medical"></i>
+        </div>
+      </div>
+      <form class="header__find">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="채팅방 이름, 참여자 검색" />
+      </form>
+    </header>
+    <main class="chatting">
+      <li class="chatting__list">
+        <div class="chatting__friend">
+          <a href="chat.html">
+            <div class="friend__column">
+              <img
+                src="https://lumiere-a.akamaihd.net/v1/images/character_princess_mulan_square_18856_e1866aac.jpeg"
+                class="friend__avatar"
+              />
+              <div class="friend__content">
+                <span class="friend__name">Mulan</span>
+                <span class="friend__bottom-text">오고 있어?</span>
+              </div>
+              <div class="friend__time">
+                <span class="friend__timestamp">오후 5:10</span>
+                <div class="friend__column-badge">2</div>
+              </div>
+            </div>
+          </a>
+          <div class="friend__column">
+            <img
+              src="https://vignette.wikia.nocookie.net/pixar/images/1/1f/Dory-white.jpg/revision/latest/top-crop/width/360/height/360?cb=20110924203518"
+              class="friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">Dory</span>
+              <span class="friend__bottom-text">나도 모르겠어</span>
+            </div>
+            <div class="friend__time">
+              <span class="friend__timestamp">오후 3:05</span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <img
+              src="https://i.pinimg.com/originals/99/99/57/999957c31b4099b31f1de30b7a43b4dc.jpg"
+              class="friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">Bruni</span>
+              <span class="friend__bottom-text">응!</span>
+            </div>
+            <div class="friend__time">
+              <span class="friend__timestamp">오전 10:55</span>
+            </div>
+          </div>
+        </div>
+      </li>
+    </main>
+    <div class="bigScreen">
+      <span class="bigScreen__text">
+        Please make your screen small
+      </span>
+    </div>
+  </body>
+</html>

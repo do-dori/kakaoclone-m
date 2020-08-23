@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="author" content="Nomad Coders" />
+    <meta name="description" content="Welcome to my Kakao Clone" />
+    <script
+      src="https://kit.fontawesome.com/43b2f8bb25.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Chat | Kakao Talk</title>
+  </head>
+  <body>
+    <div class="up-bar">
+      <span class="up-bar__icon">
+        <i class="fas fa-minus"></i>
+      </span>
+      <span class="up-bar__icon">
+        <i class="far fa-square"></i>
+      </span>
+      <span class="up-bar__icon">
+        <i class="fas fa-times"></i>
+      </span>
+    </div>
+    <nav class="side-bar">
+      <div class="side-bar__list--big">
+        <a href="friends.html" class="side-bar__list-link">
+          <i class="fas fa-user"></i>
+        </a>
+        <a href="index.html" class="side-bar__list-link">
+          <div class="side-bar__badge">2</div>
+          <i class="fas fa-comment"></i>
+        </a>
+        <a href="more.html" class="side-bar__list-link">
+          <i class="fas fa-ellipsis-h"></i>
+        </a>
+      </div>
+      <div class="side-bar__list--small">
+        <i class="far fa-smile"></i>
+        <i class="far fa-bell"></i>
+        <i class="fas fa-cog"></i>
+      </div>
+    </nav>
+    <header class="chat__header">
+      <img
+        src="https://lumiere-a.akamaihd.net/v1/images/character_princess_mulan_square_18856_e1866aac.jpeg"
+        class="friend__avatar"
+      />
+      <span class="chat__header-name">Mulan</span>
+      <div class="chat__header-icon">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+    <main class="chat-screen">
+      <ul class="chat__messages">
+        <span class="chat__timestamp">2020년 8월 23일 일요일</span>
+        <li class="incoming-message message">
+          <img
+            src="https://lumiere-a.akamaihd.net/v1/images/character_princess_mulan_square_18856_e1866aac.jpeg"
+            class="friend__avatar"
+          />
+          <div class="message__content">
+            <span class="message__bubble">어디서 만날까?</span>
+            <span class="message__author">Mulan</span>
+          </div>
+          <span class="message__timestamp">오전 10:22</span>
+        </li>
+        <li class="sent-message message">
+          <span class="message__timestamp">오전 10:25</span>
+          <div class="message__content">
+            <span class="message__bubble">집 앞 공원에서 보자!</span>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img
+            src="https://lumiere-a.akamaihd.net/v1/images/character_princess_mulan_square_18856_e1866aac.jpeg"
+            class="friend__avatar"
+          />
+          <div class="message__content">
+            <span class="message__bubble">그래 :)</span>
+            <span class="message__author">Mulan</span>
+          </div>
+          <span class="message__timestamp">오전 10:30</span>
+        </li>
+        <li class="sent-message message">
+          <span class="message__timestamp">오후 6:03</span>
+          <div class="message__content">
+            <span class="message__bubble">오늘 칼퇴할 거임ㅋㅋ</span>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img
+            src="https://lumiere-a.akamaihd.net/v1/images/character_princess_mulan_square_18856_e1866aac.jpeg"
+            class="friend__avatar"
+          />
+          <div class="message__content">
+            <span class="message__bubble">ㅋㅋㅋ나는 지금 끝났어</span>
+            <span class="message__author">Mulan</span>
+          </div>
+          <span class="message__timestamp">오후 6:21</span>
+        </li>
+        <li class="incoming-message message">
+          <img
+            src="https://lumiere-a.akamaihd.net/v1/images/character_princess_mulan_square_18856_e1866aac.jpeg"
+            class="friend__avatar"
+          />
+          <div class="message__content">
+            <span class="message__bubble">오고 있어?</span>
+            <span class="message__author">Mulan</span>
+          </div>
+          <span class="message__timestamp">오후 6:25</span>
+        </li>
+      </ul>
+    </main>
+    <div class="chat__write-container">
+      <input class="chat__write" type="text" placeholder="Send message" />
+      <div class="chat__icon-left chat__icon">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__icon-right chat__icon">
+        <span class="chat__icon">
+          <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat__icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
+    <div class="bigScreen">
+      <span class="bigScreen__text">
+        Please make your screen small
+      </span>
+    </div>
+  </body>
+</html>
